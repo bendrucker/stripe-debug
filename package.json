@@ -1,0 +1,28 @@
+{
+  "name": "stripe-debug",
+  "version": "2.0.0",
+  "description": "npm install for Stripe.js — for testing only",
+  "main": "stripe-debug.js",
+  "scripts": {
+    "install": "node download.js",
+    "test": "npm run install && if [ ! -f 'stripe-debug.js' ]; then exit 1; fi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bendrucker/stripe-debug.git"
+  },
+  "keywords": [
+    "stripe",
+    "debug",
+    "development"
+  ],
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://www.bendrucker.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bendrucker/stripe-debug/issues"
+  },
+  "homepage": "https://github.com/bendrucker/stripe-debug",
+  "dependencies": {
+    "got": "~2.7.2"
+  }
+}
