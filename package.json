@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/bendrucker/stripe-debug",
   "dependencies": {
-    "got": "~2.7.2"
+    "got": "~9.3.2"
   }
 }
