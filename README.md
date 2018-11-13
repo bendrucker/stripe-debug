@@ -1,4 +1,7 @@
 # stripe-debug
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/stripe-debug.svg)](https://greenkeeper.io/)
+
 `npm install` for Stripe.js — for testing only. Downloads `stripe-debug.js` from the Stripe CDN. 
 
 ## Installing
